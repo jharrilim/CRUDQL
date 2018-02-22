@@ -1,0 +1,8 @@
+﻿
+## Syntax Examples
+create a new table called People with name as text, birthday as date, and age as number.
+add a new record to the people table with name as joe, birthday as 12-16-1992, and age as 25.
+delete a record in the people table where name is joe.
+change age to 26 in the people table where name is joe.
+
+### Sentences shall follow imperative SVO rules.
