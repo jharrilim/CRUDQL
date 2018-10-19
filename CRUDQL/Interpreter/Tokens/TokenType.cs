@@ -17,6 +17,9 @@ namespace CRUDQL.Interpreter.Tokens
         With,
         Is,
         IsNot,
+        Table,
+        User,
+        Record,
         Word
     }
 }

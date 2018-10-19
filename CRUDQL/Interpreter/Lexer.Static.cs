@@ -22,6 +22,9 @@ namespace CRUDQL.Interpreter
                 new TokenDefinition("(change|update|modify)", TokenType.Update),
                 new TokenDefinition("(where)", TokenType.Where),
                 new TokenDefinition("(with)", TokenType.With),
+                new TokenDefinition("(table)", TokenType.Table),
+                new TokenDefinition("(user)", TokenType.User),
+                new TokenDefinition("(record)", TokenType.Record),
                 new TokenDefinition(@"[^\s-]", TokenType.Word)
             };
         }
